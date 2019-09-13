@@ -64,7 +64,7 @@ body {
 }
 .time-sheet__main-form input[type="text"] {
   width: 25px;
-  height: auto;
+  height: 20px;
   border: 1px solid #d7d7d7;
   border-radius: 3px;
   margin-left: 3px;
