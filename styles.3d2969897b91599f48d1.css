@@ -69,6 +69,7 @@ body {
   border-radius: 3px;
   margin-left: 3px;
   line-height: normal;
+  box-sizing: border-box;
 }
 .time-sheet__main-form form {
   display: flex;
@@ -86,25 +87,25 @@ body {
   margin-top: 5px;
   display: flex;
   flex-direction: column;
-  width: 300px;
   margin-bottom: 15px;
   width: 100%;
 }
 .time-sheet-main-form__next-week {
   margin-top: 5px;
   margin-bottom: 10px;
+  width: 100%;
 }
 .time-sheet-curr-week__day {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 4px;
   border-radius: 5px;
   box-sizing: border-box;
   width: 100%;
   white-space: nowrap;
   align-items: center;
-  height: fit-content;
+  height: 30px;
+  padding: 2px 0;
 }
 .time-sheet-curr-week__day .minutes-digits {
   margin-right: 5px;
@@ -116,10 +117,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 4px;
   border-radius: 5px;
   align-items: center;
-  height: fit-content;
+  height: 30px;
+  padding: 2px 0;
+  box-sizing: border-box;
 }
 .time-sheet-next-week__day .weekend {
   color: #d4000b;
