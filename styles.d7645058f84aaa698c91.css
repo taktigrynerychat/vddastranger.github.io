@@ -250,7 +250,7 @@ body {
     margin: 0;
   }
   .time-sheet__main-form input[type="text"] {
-    width: 30px;
+    width: 35px;
   }
   .time-sheet__answer {
     box-sizing: border-box;
